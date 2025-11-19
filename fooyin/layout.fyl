@@ -1,0 +1,122 @@
+{
+    "Name": "layout",
+    "Theme": "AAAAAQAAAAAAAAAA/////wAAAAAAAAAACP////8AAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAADgBSAGUAZwB1AGwAYQByQCYAAAAAAAD/////BQABAZAQAAABAAAAAAAAAAAAAAAAAAEAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAALABGAG8AbwB5AGkAbgA6ADoARQBkAGkAdABhAGIAbABlAFQAYQBiAEIAYQByAAAAGABBAGQAdwBhAGkAdABhACAAUwBhAG4AcwAAAA4AUgBlAGcAdQBsAGEAckAmAAAAAAAA/////wUAAQGQEAAAAQAAAAAAAAAAAAAAAAABAAAAGABBAGQAdwBhAGkAdABhACAAUwBhAG4AcwAAADYARgBvAG8AeQBpAG4AOgA6AEYAaQBsAHQAZQByAHMAOgA6AEYAaQBsAHQAZQByAFYAaQBlAHcAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAADgBSAGUAZwB1AGwAYQByQCYAAAAAAAD/////BQABAZAQAAABAAAAAAAAAAAAAAAAAAEAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAALgBGAG8AbwB5AGkAbgA6ADoATABpAGIAcgBhAHIAeQBUAHIAZQBlAFYAaQBlAHcAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAADgBSAGUAZwB1AGwAYQByQCYAAAAAAAD/////BQABAZAQAAABAAAAAAAAAAAAAAAAAAEAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAANABGAG8AbwB5AGkAbgA6ADoATAB5AHIAaQBjAHMAOgA6AEwAeQByAGkAYwBzAEEAcgBlAGEAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAADgBSAGUAZwB1AGwAYQByQCYAAAAAAAD/////BQABAZAQAAABAAAAAAAAAAAAAAAAAAEAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAAKABGAG8AbwB5AGkAbgA6ADoAUABsAGEAeQBsAGkAcwB0AFYAaQBlAHcAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAADgBSAGUAZwB1AGwAYQByQCYAAAAAAAD/////BQABAZAQAAABAAAAAAAAAAAAAAAAAAEAAAAYAEEAZAB3AGEAaQB0AGEAIABTAGEAbgBzAAAAJgBGAG8AbwB5AGkAbgA6ADoAUwB0AGEAdAB1AHMATABhAGIAZQBsAAAAGABBAGQAdwBhAGkAdABhACAAUwBhAG4AcwAAAA4AUgBlAGcAdQBsAGEAckAmAAAAAAAA/////wUAAQGQEAAAAQAAAAAAAAAAAAAAAAABAAAAGABBAGQAdwBhAGkAdABhACAAUwBhAG4AcwAAACIAUQBBAGIAcwB0AHIAYQBjAHQASQB0AGUAbQBWAGkAZQB3AAAAGABBAGQAdwBhAGkAdABhACAAUwBhAG4AcwAAAA4AUgBlAGcAdQBsAGEAckAmAAAAAAAA/////wUAAQGQEAAAAQAAAAAAAAAAAAAAAAABAAAAGABBAGQAdwBhAGkAdABhACAAUwBhAG4Acw==",
+    "Version": 1,
+    "Widgets": [
+        {
+            "SplitterHorizontal": {
+                "State": "AAAA/wAAAAEAAAACAAABTgAABfgA/////wEAAAABAA==",
+                "Widgets": [
+                    {
+                        "SplitterVertical": {
+                            "State": "AAAA/wAAAAEAAAACAAAC7QAAAU0A/////wEAAAACAA==",
+                            "Widgets": [
+                                {
+                                    "LibraryTree": {
+                                        "Grouping": 0,
+                                        "ID": "83732eb976e546fb9f19ee51737b35fd",
+                                        "State": "AAAAgHja+////38GBgY2IBZYd65Zd0uisff9GWzac+9IbQeJOXl9N+l61L3EcLW1o/2awwtAYrs1vuqreOg9UVxVsFd05fO1ILHi/taQ5/eFJl/2dFcSin/aChLre3Rg7bupHp59n3R2yU1YMgckNvG28OKfD+b/vWO0XXr+uo3qAAVyNmI="
+                                    }
+                                },
+                                {
+                                    "ArtworkPanel": {
+                                        "CoverAlignment": 132,
+                                        "CoverType": 0,
+                                        "KeepAspectRatio": true
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SplitterVertical": {
+                            "State": "AAAA/wAAAAEAAAACAAAD4QAAAFkA/////wEAAAACAA==",
+                            "Widgets": [
+                                {
+                                    "SplitterHorizontal": {
+                                        "State": "AAAA/wAAAAEAAAACAAAEqwAAAVUA/////wEAAAABAA==",
+                                        "Widgets": [
+                                            {
+                                                "Playlist": {
+                                                    "Columns": "8:4|0:4|1|7:2|2|12:2|18:2",
+                                                    "HeaderState": "AAAAhXjaY2BgYGdgYHAHYn8GBsYNQDoOSOsA6UIgjmGAyIMAIxCzADETEDMDMRsQs4Lk7dd93/u++t4/+43y9RVbviTZX4/+yvicT8t+S2P8YTmro/YXLOuffPi7zn5HhVe57QIm+y2iyjsvCv4AGcjwHwgAvDkkCg==",
+                                                    "ID": "21fd38a8edc940779a25d1b26af1673f",
+                                                    "Preset": 1,
+                                                    "SingleMode": false
+                                                }
+                                            },
+                                            {
+                                                "SplitterHorizontal": {
+                                                    "State": "AAAA/wAAAAEAAAACAAABLwAAAB8A/////wEAAAABAA==",
+                                                    "Widgets": [
+                                                        {
+                                                            "SelectionInfo": {
+                                                                "AlternatingRows": true,
+                                                                "Options": 5,
+                                                                "ShowHeader": true,
+                                                                "ShowHorizontalScrollbar": false,
+                                                                "ShowVerticalScrollbar": true,
+                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS0AAAACAAAAAQAAAAABAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAZAAAAAEAAAAAAAAAyQAAAAEAAAABAAAD6AAAAABkAAAAAAAAAAAAAAAAAAAAAQ=="
+                                                            }
+                                                        },
+                                                        {
+                                                            "VUMeter": {
+                                                                "Orientation": 2,
+                                                                "ShowLegend": false,
+                                                                "ShowPeaks": true
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "SplitterHorizontal": {
+                                        "State": "AAAA/wAAAAEAAAACAAABkQAABGMA/////wEAAAABAA==",
+                                        "Widgets": [
+                                            {
+                                                "SplitterVertical": {
+                                                    "State": "AAAA/wAAAAEAAAACAAAATQAAABYA/////wEAAAACAA==",
+                                                    "Widgets": [
+                                                        {
+                                                            "SplitterVertical": {
+                                                                "State": "AAAA/wAAAAEAAAACAAAAJAAAABcA/////wEAAAACAA==",
+                                                                "Widgets": [
+                                                                    {
+                                                                        "PlayerControls": {
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "VolumeControls": {
+                                                                            "Mode": 3
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "StatusBar": {
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "WaveBar": {
+                                                    "ElapsedTotal": false,
+                                                    "ShowLabels": false
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

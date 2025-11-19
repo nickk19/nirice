@@ -19,6 +19,7 @@ Here are the programs I use:
 - **`Swaylock`** (as the lock screen)
 - **`Nautilus`** (as the file manager)
 - **`Ly`** (as the display manager) **NOTE**: this config must be placed in `/etc/`
+- **`Fooyin`** (as the **based** music player)
 
 To manage Wi-Fi and Bluetooth connections, **`nm-applet`** and **`blueman-applet`** are used.
 
