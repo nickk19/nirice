@@ -17,9 +17,6 @@ Here are the programs I use:
 - **`Swayidle`** (as the idle manager)
 - **`Swaybg`** (to set the wallpaper)
 - **`Swaylock`** (as the lock screen)
-- **`Kanshi`** (to manage the displays) **NOTE**: The configuration file is based on the displays I use. You will have to edit it accordingly. 
-- **`Wob`** (as the overlay)
-- **`Cliphist`** (as the clipboard manager)
 - **`Nautilus`** (as the file manager)
 - **`Ly`** (as the display manager) **NOTE**: this config must be placed in `/etc/`
 
