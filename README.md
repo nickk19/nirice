@@ -15,7 +15,7 @@ Here are the programs I use:
 - **`Wofi`** (as the launcher)
 - **`Mako`** (as the notification daemon)
 - **`Swayidle`** (as the idle manager)
-- **`SWWW`** (to set the wallpaper)
+- **`Swaybg`** (to set the wallpaper)
 - **`Swaylock`** (as the lock screen)
 - **`Kanshi`** (to manage the displays) **NOTE**: The configuration file is based on the displays I use. You will have to edit it accordingly. 
 - **`Wob`** (as the overlay)
