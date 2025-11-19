@@ -34,12 +34,12 @@
                             "Widgets": [
                                 {
                                     "SplitterHorizontal": {
-                                        "State": "AAAA/wAAAAEAAAACAAAEqwAAAVUA/////wEAAAABAA==",
+                                        "State": "AAAA/wAAAAEAAAACAAAEkAAAAWQA/////wEAAAABAA==",
                                         "Widgets": [
                                             {
                                                 "Playlist": {
                                                     "Columns": "8:4|0:4|1|7:2|2|12:2|18:2",
-                                                    "HeaderState": "AAAAhXjaY2BgYGdgYHAHYn8GBsYNQDoOSOsA6UIgjmGAyIMAIxCzADETEDMDMRsQs4Lk7dd93/u++t4/+43y9RVbviTZX4/+yvicT8t+S2P8YTmro/YXLOuffPi7zn5HhVe57QIm+y2iyjsvCv4AGcjwHwgAvDkkCg==",
+                                                    "HeaderState": "AAAAhXjaY2BgYGdgYHADYl8GBsYNQDoWSCsC6XwgjmaAyIMAIxCzADETEDMDMRsQs4Lk7dd93/u++t4/+43y9RVbviTZX98x9er2v6fttzTGH5azOmp/fuc+JQcZKfsdFV7ltguY7LeIKu+8KPgDZCDDfyAAANqMJAA=",
                                                     "ID": "21fd38a8edc940779a25d1b26af1673f",
                                                     "Preset": 1,
                                                     "SingleMode": false
@@ -56,7 +56,7 @@
                                                                 "ShowHeader": true,
                                                                 "ShowHorizontalScrollbar": false,
                                                                 "ShowVerticalScrollbar": true,
-                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS0AAAACAAAAAQAAAAABAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAZAAAAAEAAAAAAAAAyQAAAAEAAAABAAAD6AAAAABkAAAAAAAAAAAAAAAAAAAAAQ=="
+                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT0AAAACAAAAAQAAAAABAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAcgAAAAEAAAAAAAAAywAAAAEAAAABAAAD6AAAAABkAAAAAAAAAAAAAAAAAAAAAQ=="
                                                             }
                                                         },
                                                         {
@@ -118,5 +118,9 @@
                 ]
             }
         }
-    ]
+    ],
+    "WindowSize": {
+        "Height": 1128,
+        "Width": 1884
+    }
 }
