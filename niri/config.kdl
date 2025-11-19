@@ -1,13 +1,11 @@
-spawn-at-startup "waybar"
+spawn-sh-at-startup "waybar"
 spawn-sh-at-startup "~/.config/swayidle-script.sh"
 spawn-sh-at-startup "swaybg -m fill -i ~/Pictures/Wallpapers/wallpaper.jpg"
-
 
 input {
     keyboard {
         xkb {
             layout "us,it"
-            //options "grp:shifts_toggle"
             options "grp:win_space_toggle"
         }
     }
@@ -26,9 +24,6 @@ input {
     // Focus windows and outputs automatically when moving the mouse into them.
     // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
     focus-follows-mouse max-scroll-amount="0%"
-
-    //mod-key "Alt"
-
 }
 
 // You can configure outputs by their name, which you can find by running `niri msg outputs`.
