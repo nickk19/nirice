@@ -1,6 +1,7 @@
 spawn-sh-at-startup "waybar"
 spawn-sh-at-startup "~/.config/swayidle-script.sh"
 spawn-sh-at-startup "swaybg -m fill -i ~/Pictures/Wallpapers/wallpaper.jpg"
+spawn-sh-at-startup "wl-paste --watch cliphist store"
 
 input {
     keyboard {
@@ -37,17 +38,15 @@ output "eDP-1" {
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
-    gaps 10
-
+    always-center-single-column
     center-focused-column "never"
 
     preset-column-widths {
-        proportion 0.33333
-        proportion 0.5
-        proportion 0.66666
+        proportion 0.3
+        proportion 0.6
     }
 
-    default-column-width { proportion 0.5; }
+    default-column-width { proportion 0.6; }
 
     focus-ring { off; }
 
@@ -94,10 +93,11 @@ binds {
     Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+Return hotkey-overlay-title="Run an Application: wofi" { spawn-sh "pidof wofi || wofi -a --conf ~/.config/wofi/config --style ~/.config/wofi/style.css"; }
     Super+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn-sh "swaylock -f"; }
+    Super+V hotkey-overlay-title="Run a clipboard manager: cliphist" { spawn-sh "cliphist list | wofi -a --conf ~/.config/wofi/config --style ~/.config/wofi/style.css --dmenu --pre-display-cmd \"echo '%s' | cut -f 2\" | cliphist decode | wl-copy"; }
 
-    XF86AudioRaiseVolume    allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_SINK@ 5%+ "; }
+    XF86AudioRaiseVolume    allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_SINK@ 5%+"; }
     XF86AudioLowerVolume    allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_SINK@ 5%-"; }
-    XF86AudioMute           allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_SINK@ toggle" ; }
+    XF86AudioMute           allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_SINK@ toggle"; }
     XF86AudioMicMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_SOURCE@ toggle"; }
 
     XF86MonBrightnessUp     allow-when-locked=true { spawn-sh "brightnessctl set 10%+"; }
@@ -199,8 +199,7 @@ binds {
     Mod+Shift+Equal { set-window-height "+10%"; }
 
     // Move the focused window between the floating and the tiling layout.
-    Mod+V       { toggle-window-floating; }
-    Mod+Shift+V { switch-focus-between-floating-and-tiling; }
+    Mod+Shift+V       { toggle-window-floating; }
 
     // Toggle tabbed column display mode.
     Mod+W { toggle-column-tabbed-display; }
