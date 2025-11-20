@@ -92,7 +92,7 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+Return hotkey-overlay-title="Run an Application: wofi" { spawn-sh "pidof wofi || wofi -a --conf ~/.config/wofi/config --style ~/.config/wofi/style.css"; }
-    Super+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn-sh "swaylock -f"; }
+    Super+Shift+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn-sh "swaylock -f"; }
     Super+V hotkey-overlay-title="Run a clipboard manager: cliphist" { spawn-sh "pidof wofi || cliphist list | wofi -a --conf ~/.config/wofi/config --style ~/.config/wofi/style.css --dmenu --pre-display-cmd \"echo '%s' | cut -f 2\" | cliphist decode | wl-copy"; }
 
     XF86AudioRaiseVolume    allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_SINK@ 5%+"; }
