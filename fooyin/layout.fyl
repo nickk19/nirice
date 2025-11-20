@@ -34,12 +34,12 @@
                             "Widgets": [
                                 {
                                     "SplitterHorizontal": {
-                                        "State": "AAAA/wAAAAEAAAACAAAEkAAAAWQA/////wEAAAABAA==",
+                                        "State": "AAAA/wAAAAEAAAACAAAEdAAAAYAA/////wEAAAABAA==",
                                         "Widgets": [
                                             {
                                                 "Playlist": {
                                                     "Columns": "8:4|0:4|1|7:2|2|12:2|18:2",
-                                                    "HeaderState": "AAAAhXjaY2BgYGdgYHADYl8GBsYNQDoWSCsC6XwgjmaAyIMAIxCzADETEDMDMRsQs4Lk7dd93/u++t4/+43y9RVbviTZX98x9er2v6fttzTGH5azOmp/fuc+JQcZKfsdFV7ltguY7LeIKu+8KPgDZCDDfyAAANqMJAA=",
+                                                    "HeaderState": "AAAAhXjaY2BgYGdgYHABYnsGBsZ1QDoaSMsB6RwgjmSAyIMAIxCzADETEDMDMRsQs4Lk7dd93/u++t4/+zUReqdKHzTZ37DZltbF5Ge/pTH+sJzVUfsLojNadbom2++o8Cq3XcBkv0VUeedFwR8gAxn+AwEAbG4h5Q==",
                                                     "ID": "21fd38a8edc940779a25d1b26af1673f",
                                                     "Preset": 1,
                                                     "SingleMode": false
@@ -56,7 +56,7 @@
                                                                 "ShowHeader": true,
                                                                 "ShowHorizontalScrollbar": false,
                                                                 "ShowVerticalScrollbar": true,
-                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT0AAAACAAAAAQAAAAABAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAcgAAAAEAAAAAAAAAywAAAAEAAAABAAAD6AAAAABkAAAAAAAAAAAAAAAAAAAAAQ=="
+                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVcAAAACAAAAAQAAAAABAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAcgAAAAEAAAAAAAAA5QAAAAEAAAABAAAD6AAAAABkAAAAAAAAAAAAAAAAAAAAAQ=="
                                                             }
                                                         },
                                                         {
@@ -74,7 +74,7 @@
                                 },
                                 {
                                     "SplitterHorizontal": {
-                                        "State": "AAAA/wAAAAEAAAACAAABkQAABGMA/////wEAAAABAA==",
+                                        "State": "AAAA/wAAAAEAAAACAAABpAAABFAA/////wEAAAABAA==",
                                         "Widgets": [
                                             {
                                                 "SplitterVertical": {
